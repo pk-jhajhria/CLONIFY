@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  /* font-weight */
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  /* font-size */
+  --fs-xl: 12px;
+  --fs-2xl: 14px;
+  --fs-3xl: 16px;
+  --fs-4xl: 18px;
+  --fs-5xxl: 26px;
+  --fs-6xxl: 28px;
+  /* text-color */
+  --clr-gray: #9d9fa1;
+  --clr-dark-black: #282828;
+  --clr-dark-gray: #5f6980;
+  --clr-white: #ffffff;
+  --clr-green: #20c997;
+  --clr-red: #dc3545;
+  --clr-orange: #fd7e14;
+  /* bg-color */
+  --bg-dark-gray: #f2f4f7;
+  --bg-green: #dcfff5;
+  --bg-dark-black: #282828;
+  --bg-red: #ffe0e3;
+  --bg-light-gray: #f2f4f7;
+  --bg-orange: #ffead8;
+  --bg-gray: #f9fafb;
+}
+
+/* font-weight */
+.fw_regular {
+  font-weight: var(--fw-regular);
+}
+.fw_semibold {
+  font-weight: var(--fw-semibold);
+}
+/* font-size */
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xxl {
+  font-size: var(--fs-5xxl);
+}
+.fs_6xxl {
+  font-size: var(--fs-6xxl);
+}
+
+/* text-color */
+.text_gray {
+  color: var(--clr-gray);
+}
+.text_dark_black {
+  color: var(--clr-dark-black);
+}
+.text_dark_gray {
+  color: var(--clr-dark-gray);
+}
+.text_white {
+  color: var(--clr-white);
+}
+.text_green {
+  color: var(--clr-green);
+}
+.text_red {
+  color: var(--clr-red);
+}
+.text_orange {
+  color: var(--clr-orange);
+}
+/* bg-color */
+.bg_dark_gray {
+  background-color: var(--bg-dark-gray);
+}
+.bg_gray {
+  background-color: var(--bg-gray);
+}
+.bg_green {
+  background-color: var(--bg-green);
+}
+.bg_dark_black {
+  background-color: var(--bg-dark-black);
+}
+.bg_red {
+  background-color: var(--bg-red);
+}
+.bg_light_gray {
+  background-color: var(--bg-light-gray);
+}
+.bg_orange {
+  background-color: var(--bg-orange);
+}
